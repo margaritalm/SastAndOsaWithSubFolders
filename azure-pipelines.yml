@@ -18,7 +18,6 @@ steps:
     enableSastScan: true
     fullTeamName: '$(cx.teamName)'
     enableDependencyScan: true
-    
     dependencyTenant: 'plugins'
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
