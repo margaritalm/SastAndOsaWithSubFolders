@@ -15,9 +15,7 @@
         <developerConnection>scm:git:ssh://github.com/checkmarx-ltd/cx-config-provider.git</developerConnection>
         <url>https://github.com/checkmarx-ltd/cx-config-provider/tree/master</url>
     </scm>
-    <licenses>
-             
-             
+    <licenses>     
              
         <license>
             <name>MIT License</name>
