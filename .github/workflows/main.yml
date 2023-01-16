@@ -15,7 +15,7 @@ jobs:
       - name: Checkmarx AST CLI Action
         uses: checkmarx/ast-github-action@main #Github Action version
         with:
-          project_name: margaritalm/SastAndOsaSource
+          project_name: SastAndOsaWithSubFolders_manual
           cx_tenant: cx_pm_ast_ori_james_brotsos_tenant
           base_uri: https://eu.ast.checkmarx.net
           cx_client_id: ${{ secrets.CLIENT_ID }}
