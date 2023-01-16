@@ -5,15 +5,14 @@ on:
     branches:
       - main
       - master
-      - dev
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2.0.9
+        uses: actions/checkout@v2
       - name: Checkmarx AST CLI Action
-        uses: checkmarx/ast-github-action@main #Github Action version
+        uses: checkmarx/ast-github-action@main
         with:
           project_name: SastAndOsaWithSubFolders_manual
           cx_tenant: cx_pm_ast_ori_james_brotsos_tenant
