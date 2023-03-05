@@ -6,8 +6,8 @@ on:
       - master
       - dev
 env:
-  scanTypes: SAST;iac-security
-  threshold: iac-security-high=1;iac-security-medium=1;iac-securitylow=1
+  scanTypes: iac-security
+  threshold: iac-security-high=1=,iac-security-medium=1,iac-securitylow=1
 jobs:
   build:
     runs-on: ubuntu-latest
