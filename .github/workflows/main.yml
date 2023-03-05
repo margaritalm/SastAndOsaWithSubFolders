@@ -6,7 +6,7 @@ on:
       - master
       - dev
 env:
-  scanTypes: "iac-security"
+  scanTypes: SAST,iac-security
 jobs:
   build:
     runs-on: ubuntu-latest
