@@ -6,7 +6,7 @@ on:
       - master
       - dev
 env:
-  scanTypes: SAST,iac-security
+  scanTypes: SAST;iac-security
   threshold: iac-security-high=1;iac-security-medium=1;iac-securitylow=1
 jobs:
   build:
