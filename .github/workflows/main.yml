@@ -25,6 +25,3 @@ jobs:
           cx_client_secret: ${{ secrets.SECRET }}
           additional_params: --iac-security-platforms ${{ env.platform }} --debug --scan-types ${{ env.scanTypes }} --threshold ${{ env.threshold }}
 
-
-
-
