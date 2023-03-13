@@ -5,6 +5,7 @@ on:
       - main
       - master
       - dev
+  pull_request:
 env:
   platforms: Dockerfile
   scanTypes: iac-security,sast
