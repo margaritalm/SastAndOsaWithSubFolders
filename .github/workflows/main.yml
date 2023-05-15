@@ -5,6 +5,7 @@ on:
       - main
       - master
       - dev
+      - test_166593
   pull_request:
 env:
   platforms: Dockerfile
