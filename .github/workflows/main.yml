@@ -1,12 +1,11 @@
 name: Checkmarx One Scan
 on:
-  push:
-    branches:
-      - main
-      - master
-      - dev
-      - test_166593
   pull_request:
+    branches:
+        - main
+        - master
+        - dev
+        - test_166593
 env:
   platforms: Dockerfile
   scanTypes: iac-security,sast,sca
