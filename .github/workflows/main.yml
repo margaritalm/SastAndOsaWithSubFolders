@@ -19,7 +19,7 @@ jobs:
       - name: Checkmarx One CLI Action
         uses: checkmarx/ast-github-action@main
         with:
-          project_name: SastAndOsaWithSubFolders_manual
+          project_name: New_SastAndOsaWithSubFolders_manual
           cx_tenant: Cx_Seg
           base_uri: https://eu.ast.checkmarx.net
           cx_client_id: ${{ secrets.CLIENT_ID }}
