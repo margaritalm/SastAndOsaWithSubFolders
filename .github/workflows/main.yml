@@ -1,15 +1,19 @@
 name: Checkmarx One Scan
+
 on:
   pull_request:
     branches:
-        - main
-        - master
-        - dev
-        - test_166593
+        - "main"
+        - "master"
+        - "dev"
+        - "test_166593"
+  workflow_dispatch:
+  
 env:
   platforms: Dockerfile
   scanTypes: iac-security,sast,sca
   threshold: iac-security-high=1=,iac-security-medium=1,iac-securitylow=1    
+  
 jobs:
   build:
     runs-on: ubuntu-latest
